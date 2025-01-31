@@ -26,7 +26,7 @@ app.set("views", path.resolve("./views"));
 // }).catch((err) => {
 //   console.error("Error connecting to MongoDB", err);
 //   process.exit(1);
-// });
+// });`
 
 //Middlewares
 app.use(express.json());
